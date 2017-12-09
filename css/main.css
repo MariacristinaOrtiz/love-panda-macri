@@ -1,0 +1,84 @@
+/*SETEAR NUESTROS ARCHIVOS: SEA IGUAL PARA TODOS LOS NAVEGADORES*/
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* ETIQUETAS REUTILIZABLES*/
+img {
+  width: 100%;
+}
+.tittle-rigth {
+  background-color: #f48c68;
+  color:white;
+  text-align: right;
+}
+/* Estilos a header*/
+.main {
+  background-color: #f48c68;
+  color:white;
+  padding: 50px 30px;
+  text-align: right;
+}
+.panda-img {
+  filter: grayscale(100%);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header.main h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.panda-principal {
+  background-image: url("../assets/imgs/uno.jpg");
+}
+.pinky-line {
+  height: 20px;
+  background-color: #f48c68;
+}
+.green-text {
+  padding: 80px 0;
+  background-color: #abe188;
+}
+ .col-xs-4 {
+  background-color: #f48c68;
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+ .col-xs-4 h3 {
+   margin-bottom: 10px;
+ }
+.panda-2 {
+  background-image: url("../assets/imgs/dos.jpg");
+}
+.col-xs-8 {
+  margin-bottom: 40px;
+}
+.h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.panda-gallery {
+  border: 10px solid #fff;
+  margin: 0 auto;
+  width:80%;
+}
+.panda-3 {
+  background-image: url("../assets/imgs/tres.jpg");
+}
+.footer {
+  padding: 20px;
+  color: #fff;
+  background-size: 0.5rem;
+  font-weight: 600;
+  text-align: right;
+}
